@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(147, 145, 173, 1) 0%, rgba(245, 245, 245, 1) 98%, rgba(81, 92, 87, 0.4) 100%);
+    
+  
+    
+}
+
+.header img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+ 
+}
+
+.intro {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.intro h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #000000;
+    line-height: 1.8;
+}
+
+.reseñas {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.reseñas h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #6F8C1C;
+}
+
+.conductor {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 30%;
+    margin-right: 10px;
+}
+
+.conductor img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.conductor h3 {
+    font-size: 1.8em;
+    margin: 10px 0;
+}
+
+.conductor p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.calificacion {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.calificacion p {
+    font-size: 1.2em;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.calificacion img {
+    width: 100px;
+}
+
+.testimonios {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    text-align: center;
+}
+
+.testimonios h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.testimonio {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.testimonio img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}

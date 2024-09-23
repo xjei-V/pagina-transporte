@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(147, 145, 173, 1) 0%, rgba(245, 245, 245, 1) 98%, rgba(81, 92, 87, 0.4) 100%);
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: black;
+}
+
+.header img {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.equipo {
+    margin: 40px 0;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.equipo h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #6F8C1C;
+}
+
+.equipo p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.perfil-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.perfil {
+    width: 250px;
+    margin: 20px;
+    text-align: center;
+}
+
+.perfil img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.perfil h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.perfil p {
+    font-size: 1.1em;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    margin: 0;
+    background-color: #ebebeb;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(147, 145, 173, 1) 0%, rgba(245, 245, 245, 1) 98%, rgba(81, 92, 87, 0.4) 100%);
+}
+
+.header img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+.intro {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.intro p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.opiniones {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.opiniones h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #91be12;     
+}
+
+.opinion {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.opinion img {
+    width: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.texto-opinion h3 {
+    font-size: 1.6em;
+    color: #91be12;     
+}
+
+.texto-opinion p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.calificacion {
+    margin-top: 10px;
+}
+
+.calificacion p {
+    font-size: 1.2em;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.calificacion img {
+    width: 200px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}

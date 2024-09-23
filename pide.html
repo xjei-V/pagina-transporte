@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pide.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-icon">
+            <img src="/imagenes/logo.png" alt="Ícono de la empresa" />
+        </div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="">Nosotros</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Viaje Seguro</a></li>
+            <li><a href="">Contáctanos</a></li>
+        </ul>
+    </nav>
+    <header class="header">
+        <h1>Aqui podras pedir tu <span>BUS!!</span></h1>
+
+    </header>
+    <div class="container">
+        <div class="ida">
+          <h2>Bus de <span>IDA</span></h2>
+          <div class="formulario-ida">
+            <form action="ida">
+              <label for="fecha-de-salida">Fecha de salida: </label>
+              <input type="date" id="fecha-de-salida" name="fecha-de-salida" required><br><br>
+              <label for="hora-de-salida">Hora de salida: </label>
+              <input type="time" id="hora-de-salida" name="hora-de-salida" required ><br><br>
+              <label for="lugar-recogida-ida">Lugar de recogida:</label>
+              <input type="text" required placeholder="Ingrese lugar de recogida" name="lugar-recogida-ida" id="lugar-recogida-ida"><br><br>
+              <label for="destino-ida">Destino:</label>
+              <input type="text" required placeholder="Ingrese destino" name="destino-ida" id="destino-ida"><br><br>
+              <label for="num-pasajeros-ida">Número de pasajeros:</label>
+              <input type="number" required placeholder="Ingrese número de pasajeros" name="num-pasajeros-ida" id="num-pasajeros-ida"><br><br>
+              <label for="tipo-bus-ida">Tipo de bus:</label>
+              <select id="tipo-bus-ida" name="tipo-bus-ida">
+                <option value="estándar">Estándar</option>
+                <option value="lujo">Lujo</option>
+                <option value="executivo">Ejecutivo</option>
+              </select><br><br>
+              <label for="observaciones-ida">Observaciones:</label>
+              <textarea id="observaciones-ida" name="observaciones-ida" placeholder="Ingrese observaciones"></textarea><br><br>
+              <input type="submit" value="Reservar">
+            </form>
+          </div>
+        </div>
+        <div class="ida-vuelta">
+            <h2>Bus de <span>IDA y VUELTA</span></h2>
+            <div class="formulario-vuelta">
+              <form action="vuelta">
+                <label for="fecha-de-ida-vuelta">Fecha de ida: </label>
+                <input type="date" id="fecha-de-ida-vuelta" name="fecha-de-ida-vuelta" required><br><br>
+                <label for="hora-de-ida-vuelta">Hora de ida: </label>
+                <input type="time" id="hora-de-ida-vuelta" name="hora-de-ida-vuelta" required ><br><br>
+                <label for="lugar-recogida-ida-vuelta">Lugar de recogida:</label>
+                <input type="text" required placeholder="Ingrese lugar de recogida" name="lugar-recogida-ida-vuelta" id="lugar-recogida-ida-vuelta"><br><br>
+                <label for="destino-ida-vuelta">Destino:</label>
+                <input type="text" required placeholder="Ingrese destino" name="destino-ida-vuelta" id="destino-ida-vuelta"><br><br>
+                <label for="fecha-de-regreso-vuelta">Fecha de regreso: </label>
+                <input type="date" id="fecha-de-regreso-vuelta" name="fecha-de-regreso-vuelta" required><br><br>
+                <label for="hora-de-regreso-vuelta">Hora de regreso: </label>
+                <input type="time" id="hora-de-regreso-vuelta" name="hora-de-regreso-vuelta" required ><br><br>
+                <label for="lugar-devolucion-vuelta">Lugar de devolución:</label>
+                <input type="text" required placeholder="Ingrese lugar de devolución" name="lugar-devolucion-vuelta" id="lugar-devolucion-vuelta"><br><br>
+                <label for="num-pasajeros-vuelta">Número de pasajeros:</label>
+                <input type="number" required placeholder="Ingrese número de pasajeros" name="num-pasajeros-vuelta" id="num-pasajeros-vuelta"><br><br>
+                <label for="tipo-bus-vuelta">Tipo de bus:</label>
+                <select id="tipo-bus-vuelta" name="tipo-bus-vuelta">
+                  <option value="estándar">Estándar</option>
+                  <option value="lujo">Lujo</option>
+                  <option value="executivo">Ejecutivo</option>
+                </select><br><br>
+                <label for="observaciones-vuelta">Observaciones:</label>
+                <textarea id="observaciones-vuelta" name="observaciones-vuelta" placeholder="Ingrese observaciones"></textarea><br><br>
+                <input type="submit" value="Reservar">
+              </form>
+            </div>
+          </div>
+      </div>
+    
+     
+</body>
+</html>

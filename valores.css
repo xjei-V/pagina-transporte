@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", serif; 
+    background-color: #f3f3f3;
+    color: #333;
+   
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(147, 145, 173, 1) 0%, rgba(245, 245, 245, 1) 98%, rgba(81, 92, 87, 0.4) 100%);
+    padding: 10px 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    color: rgb(0, 0, 0);
+}
+
+.header img {
+    width: 120px;
+    margin-left: 20px;
+}
+
+
+
+
+/* Sección de valores */
+.valores {
+    margin: 40px 0;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.valores h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #6F8C1C;     
+}
+
+.valores-contenido {
+    display: flex;
+    align-items: center;
+}
+
+.valores-img {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+}
+
+.valores ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.valores ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.valores ul li::before {
+    content: "•";
+    color: #6F8C1C;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+/* Footer sencillo */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 130px;
+}
+
+.footer p {
+    margin: 0;
+}

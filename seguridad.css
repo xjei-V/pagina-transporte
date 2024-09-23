@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Merriweather", serif;
+    background-color: #ebebeb;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(147, 145, 173, 1) 0%, rgba(245, 245, 245, 1) 98%, rgba(81, 92, 87, 0.4) 100%);
+    padding: 10px;
+}
+
+.header h1 {
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #333;
+}
+
+.header img {
+    width: 180px;
+    margin-left: 20px;
+}
+
+section {
+    margin: 40px 0;
+    padding: 25px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+section h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #6F8C1C;
+}
+
+section p {
+    font-size: 1.2em;
+    color: #020202;
+    font-weight: 900;
+    line-height: 1.8;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 30px;
+    text-align: left;
+}
+
+ul li {
+    margin-bottom: 12px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+section img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    margin: 0 auto 20px auto;
+}
+
+.limpieza-content, .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.text span.highlight {
+    font-weight: bold;
+    color: #6F8C1C;
+    font-size: 1.2em;
+    background-color: rgba(255, 255, 0, 0.6);
+    padding: 5px 8px;
+    border-radius: 8px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .header h1 {
+        font-size: 1.8em;
+    }
+
+    .header img {
+        width: 140px;
+        margin: 10px 0;
+    }
+
+    section h3 {
+        font-size: 1.5em;
+    }
+
+    section p, ul li {
+        font-size: 1em;
+    }
+
+    section img {
+        max-width: 100%;
+    }
+
+    .limpieza-content, .text {
+        padding: 15px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    .header h1 {
+        font-size: 2.2em;
+    }
+
+    .header img {
+        width: 160px;
+    }
+
+    section h3 {
+        font-size: 1.8em;
+    }
+
+    section p, ul li {
+        font-size: 1.1em;
+    }
+
+    section img {
+        max-width: 90%;
+    }
+
+    .limpieza-content, .text {
+        padding: 18px;
+    }
+}
+
+@media screen and (min-width: 901px) {
+    .header h1 {
+        font-size: 2.4em;
+    }
+
+    .header img {
+        width: 180px;
+    }
+
+    section h3 {
+        font-size: 2em;
+    }
+
+    section p, ul li {
+        font-size: 1.2em;
+    }
+
+    section img {
+        max-width: 400px;
+    }
+
+    .limpieza-content, .text {
+        padding: 20px;
+    }
+}
