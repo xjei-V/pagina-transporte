@@ -206,7 +206,6 @@ input[type="submit"]:hover {
   }
 }
 
-/* Para pantallas de escritorio grandes */
 @media screen and (min-width: 1024px) {
   .ida, .ida-vuelta {
     width: 40%;
